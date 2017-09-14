@@ -1,0 +1,10 @@
+d:\_Work\NetCore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.deps.json
+d:\_Work\NetCore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.runtimeconfig.json
+d:\_Work\NetCore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.runtimeconfig.dev.json
+d:\_Work\NetCore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.dll
+d:\_Work\NetCore\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.pdb
+d:\_Work\NetCore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.csproj.CoreCompileInputs.cache
+d:\_Work\NetCore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfoInputs.cache
+d:\_Work\NetCore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfo.cs
+d:\_Work\NetCore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.dll
+d:\_Work\NetCore\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.pdb
