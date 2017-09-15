@@ -24,6 +24,7 @@
       "CoreApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0"
         },
         "runtime": {

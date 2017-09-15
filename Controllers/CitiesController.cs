@@ -4,19 +4,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CitiesController
+namespace CoreApi.Controllers
 {
     [Route("api/cities")]
     public class CitiesController : Controller
     {
         [HttpGet()]
-        public JsonResult GetCities()
+        public IActionResult GetCities()
         {
-            return new JsonResult(new List<object>()
+            return Ok(CitiesDataStore.Current.Cities);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetCity(int id)
+        {
+            var cityToReturn = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id);
+
+            if(cityToReturn == null)
             {
-                new { id = 1, name = "New York City" },
-                new { id = 2, name = "Antwerp" }
-            });
+                return NotFound();
+            }
+
+            return Ok(cityToReturn);
         }
     }
 }
